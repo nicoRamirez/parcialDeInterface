@@ -1,0 +1,106 @@
+body{
+    margin: auto;
+}
+.navegador{
+    width: 100%;
+    background-color: #ffffff;
+    height: 7em;
+    box-shadow: 2px 2px 5px #999;
+    
+}
+#gobiernoDeLaCiudad{
+    height: 111px;
+}
+#login{
+    background-image: url(./img/minsabuenosaires.jpg);
+    background-repeat: no-repeat;
+    background-size: 17em;
+    height: 27em;
+    width: 44em;
+    margin: 2em 19em;
+    background-color: #fcd403;
+    border-radius: 10px;
+}
+
+#loginform{
+    padding-top: 39px;
+    margin-left: 22em;
+}
+#imagen{
+    height: 112px;
+    border-radius: 91px;
+    margin-left: 107px;
+    margin-top: 26px;
+}
+
+#boton{
+    margin-left: 110px;
+    margin-top: 3em;
+    height: 49px;
+    border-radius: 18px;
+    background-color: #0275D8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.botonALaDerecha{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+}
+.etiqueta{
+    margin-top: 36px;
+    background-color: #fcd403;
+    height: 5em;
+    width: 51em;
+    border-radius: 10px;
+
+}
+.descuento{
+    font-size: 27px;
+    margin-top: 15px;
+    margin-left: 64px;
+}
+#botonVolver{
+    margin-top: 9px;
+    margin-right: 28px;
+    height: 49px;
+    border-radius: 18px;
+    background-color: #0275D8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#usuario{
+    margin-left: 23px;
+    height: 29px;
+    width: 20em;
+    margin-top: 19px;
+    border-radius: 6px;
+    border: 0;
+}
+#contraseña{
+    margin-left: 23px;
+    height: 29px;
+    width: 20em;
+    margin-top: 19px;
+    border-radius: 6px;
+    border: 0;
+}
+div p{
+    margin-left: 24px;
+    font-family: -webkit-pictograph;
+    font-size: 17px;
+    font-weight: 900;
+}
